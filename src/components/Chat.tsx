@@ -111,7 +111,7 @@ export default function Chat() {
             <h1 className="text-xl font-semibold text-gray-800">Eliza AI Chat</h1>
             <button
               onClick={handleClearChat}
-              className="text-gray-500 hover:text-red-500 transition-colors p-2 rounded-full hover:bg-gray-100"
+              className="text-gray-800 hover:text-red-500 transition-colors p-2 rounded-full hover:bg-gray-100"
               aria-label="Clear chat history"
             >
               <TrashIcon className="w-5 h-5" />
